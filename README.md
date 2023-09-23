@@ -24,10 +24,6 @@ LLM enabled search will be a huge improvement over traditional full-text search 
 ## 2. Build Static site generator for Mediawiki sites
 Most Wiki sites are database based where the authors/editors tend to be far less than users. To improve performance and cost, these sites can serve static generated pages to the users. The project aims to create a static site generator that maintains the layout, links etc., for mediawiki based sites.
 
-### Process
-* Collate corpus from literary domain where parallel translation exist 
-* Process text (sentence alignment, parameter tuning)
-
 ### Validation
 * Build a static site version of https://tamil.wiki and host it in a CDN (cloudflare, Vercel etc.,)
 
